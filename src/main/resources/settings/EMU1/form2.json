@@ -1,0 +1,45 @@
+{
+  "form": {
+    "key": "form2",
+    "label": "More Loads",
+    "schema": [
+      {
+        "fieldName": "id",
+        "fieldLabel": "Load ID",
+        "fieldType": "Number"
+      },
+      {
+        "fieldName": "status",
+        "fieldLabel": "Status",
+        "fieldType": "Text"
+      },
+      {
+        "fieldName": "deliveryDate",
+        "fieldLabel": "Planned Delivery Date",
+        "fieldType": "DateTime"
+      },
+      {
+        "fieldName": "destination",
+        "fieldLabel": "Destination",
+        "fieldType": "Enum"
+      },
+      {
+        "fieldName": "isOnTrack",
+        "fieldLabel": "Is On Track",
+        "fieldType": "Boolean"
+      }
+    ]
+  },
+  "data": [
+    [1, "Ready to Pay", "2021-10-24", "Amsterdam", true],
+    [2, "Accepted", "2021-10-23", "Amsterdam", true],
+    [3, "Accepted", "2021-10-25", "Chicago", true],
+    [4, "Ready to Pay", "2021-10-23", "Amsterdam", true],
+    [5, "Accepted", "2022-04-27", "Chicago", true],
+    [6, "Accepted", "2020-04-26", "Chicago", true],
+    [7, "Rejected", "2020-05-15", "Chicago", false],
+    [8, "Ready to Pay", "2020-04-23", "Chicago", true],
+    [9, "Rejected", "2020-03-27", "London", true],
+    [10, "Ready to Pay", "2021-10-22", "London", true]
+    ]
+}

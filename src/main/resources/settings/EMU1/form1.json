@@ -1,0 +1,31 @@
+{
+  "form": {
+    "key": "form1",
+    "label": "Loads",
+    "schema": [
+      {
+        "fieldName": "id",
+        "fieldLabel": "Load ID",
+        "fieldType": "Number"
+      },
+      {
+        "fieldName": "status",
+        "fieldLabel": "Status",
+        "fieldType": "Text"
+      },
+      {
+        "fieldName": "isOnTrack",
+        "fieldLabel": "Is On Track",
+        "fieldType": "Boolean"
+      }
+    ]
+  },
+  "data": [
+    [1, "Accepted", true],
+    [2, "Accepted", false],
+    [3, "Ready to Pay", true],
+    [4, "Rejected", false],
+    [5, "Accepted", false],
+    [6, "Accepted", true]
+    ]
+}
